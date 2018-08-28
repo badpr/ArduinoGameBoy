@@ -1,4 +1,4 @@
-#define BUZZER 7 // Пин BUZZER
+#define BUZZER 9 // Пин BUZZER
 void setup()
 {
   pinMode(BUZZER, OUTPUT);
