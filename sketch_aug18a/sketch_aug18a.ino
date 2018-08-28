@@ -5,10 +5,11 @@ void setup()
 }
 void loop()
 {
+  MusicGame(0); // ControllerMusic
 }
 
-void MusicGame(int sound){
-  switch(sound){
+void MusicGame(int soundTrack){ // MusicList
+  switch(soundTrack){
     case 0:
         tone(9, 700, 300);delay(600);tone(9, 700, 300);delay(600);tone(9, 780, 150);delay(300);tone(9, 700, 150);delay(300);tone(9, 625, 450);delay(600);tone(9, 590, 150);delay(300);tone(9, 520, 150);delay(300);tone(9, 460, 450);delay(600);tone(9, 350, 450);delay(600);delay(600);tone(9, 350, 450);delay(600);tone(9, 460, 450);delay(600);tone(9, 520, 150);delay(300);tone(9, 590, 150);delay(300);tone(9, 625, 450);delay(600);tone(9, 590, 150);delay(300);tone(9, 520, 150);delay(300);tone(9, 700, 1350);delay(1800);tone(9, 700, 300);delay(600);tone(9, 700, 300);delay(600);tone(9, 780, 150);delay(300);tone(9, 700, 150);delay(300);tone(9, 625, 450);delay(600);tone(9, 590, 150);delay(300);tone(9, 520, 150);delay(300);tone(9, 460, 450);delay(600);tone(9, 350, 450);delay(600);delay(600);tone(9, 350, 450);delay(600);tone(9, 625, 450);delay(600);tone(9, 590, 150);delay(300);tone(9, 520, 150);delay(300);tone(9, 700, 450);delay(600);tone(9, 590, 150);delay(300);tone(9, 520, 150);delay(300);tone(9, 460, 1350);
       break;
